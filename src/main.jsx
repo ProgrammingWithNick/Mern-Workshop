@@ -8,9 +8,10 @@ import uiImage from './assets/ui.png'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Product image={uiImage} name="Sample Product" price="$19.99" />  
-    <Product image={uiImage} name="Sample Product" price="$19.99" />  
-    <Product image={uiImage} name="Sample Product" price="$19.99" />  
     <App />
+    {/* <Product image={uiImage} name="Sample Product" price="$19.99" />   */}
+    {/* <Product image={uiImage} name="Sample Product" price="$19.99" />  
+    <Product image={uiImage} name="Sample Product" price="$19.99" />   */}
+    
   </StrictMode>,
 )
